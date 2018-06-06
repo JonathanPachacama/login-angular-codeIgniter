@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+
+<h1>Login</h1>
+
+<div class="row">
+  <div class="col-sm-4"></div>
+  <div class="col-sm-4">
+    <h2>Ingrese credenciales</h2>
+    <br>
+
+    <form action="http://localhost/login-angular-codeIgniter/CodeIgniter-3.1.8/auth/logIn?">
+      <label>Correo</label>
+      <input type="email" name="correo" value="">
+      <br>
+      <label>Password</label>
+      <input type="password" name="password" value="">
+      <br>
+      <button class="btn-block btn-primary btn" type="submit" >Ingresar</button>
+
+      <button class="btn-block btn-danger btn" (click)="desLogearse()">salir</button>
+    </form>
+  </div>
+  <div class="col-sm-4"></div>
+
+</div>
+</body>
+</html>
+
+

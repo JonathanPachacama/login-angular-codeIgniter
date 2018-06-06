@@ -1,0 +1,15 @@
+<h1>App component</h1>
+<h3>header</h3>
+<ul>
+  <li>
+    <!--[routeLink]="['overview'] data bainig, arreglo de string para que no se carge la pagina cada qeu voy a una ruta-->
+    <a [routerLink]="['inicio']">Inicio</a>
+  </li>
+  <li>
+    <a [routerLink]="['login']">Ingresar</a>
+  </li>
+</ul>
+<router-outlet></router-outlet>
+<h3>Footer</h3>
+
+
