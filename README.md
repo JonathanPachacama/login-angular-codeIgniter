@@ -6,30 +6,30 @@ Se utilizó wampserver
 Path: ...\wamp64\www\login-angular-codeIgniter\CodeIgniter-3.1.8
 
 
-#crear nuevo usuario
+# crear nuevo usuario
 http://localhost/login-angular-codeIgniter/CodeIgniter-3.1.8/login/nuevo
 
-#Mostrar  usuarios
+# Mostrar  usuarios
 http://localhost/login-angular-codeIgniter/CodeIgniter-3.1.8/usuarios   
 
-#Mostrar un Usuario
+# Mostrar un Usuario
 http://localhost/login-angular-codeIgniter/CodeIgniter-3.1.8/login/usuarios/1
 
-#Actualizar Usuario
+# Actualizar Usuario
 http://localhost/login-angular-codeIgniter/CodeIgniter-3.1.8/login/editar/1
 
-#Borrar Usuario
+# Borrar Usuario
 http://localhost/login-angular-codeIgniter/CodeIgniter-3.1.8/login/borrar/12
 
 
-##Autenticacion
+## Autenticacion
 http://localhost/login-angular-codeIgniter/CodeIgniter-3.1.8/auth
 
-##Ejemplo: 
+## Ejemplo: 
 http://localhost/login-angular-codeIgniter/CodeIgniter-3.1.8/auth?correo=a@email.com&password=1234
 
 
-###Angular
+### Angular
 
 Path: ...\wamp64\www\login-angular-codeIgniter\Login-Angular
 
