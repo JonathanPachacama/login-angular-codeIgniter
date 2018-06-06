@@ -18,9 +18,14 @@ class Auth extends CI_Controller
 	function logIn(){
 //		$data ['params'] = explode("/", $_SERVER["QUERY_STRING"]);
 //		$data['email'] = array();
+		$cadenaCompleta = explode("&", $_SERVER["QUERY_STRING"]);
+		$cadenasimple  = explode("=", $cadenaCompleta[0]);
+		$cadenaCorreo = $cadenasimple[1];
+		$cadenasimple  = explode("=", $cadenaCompleta[1]);
+		$cadenaPassword = $cadenasimple[1];
 		$data = array(
-			'correo' => $this->input->post('correo'),
-			'password' => $this->input->post('password'),
+			'correo' => $cadenaCorreo,
+			'password' => $cadenaPassword,
 		);
 		$data['usuarios'] = $this->usuario_model->loguearse($data);
 		$this->load->view('login/home',$data);
